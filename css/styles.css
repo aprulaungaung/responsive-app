@@ -1,0 +1,90 @@
+body{
+    position: relative;
+    top:0;
+    left:0;
+   
+}
+
+/* navbar section */
+
+.navbar {
+    position: relative;
+    margin: 2%;
+  }
+  .navbar-brand {
+    position: relative;
+    bottom: 7px;
+    margin-right: 100px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .nav-link {
+    margin-left: 30px;
+  }
+  .nav-item button {
+    position: relative;
+    top: 5px;
+    margin-left: 40px;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-width: 0.05rem;
+  }
+  
+  /* Main section */
+  .main-container{
+    position: relative;
+    padding: 2% 3%;
+  }
+  .big-title{
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .left-window{
+    padding:0 50px 0 100px;
+  }
+  .right-window {
+    position: relative;
+    height: 500px;
+    background-image: url("../resources/images/image-hero-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .learn{
+    position: relative;
+    margin-top: 90px;
+    height: 45px;
+    width: 110px;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .logo-package{
+    position: absolute;
+    bottom: 0;
+  }
+
+  .logo{
+    margin-right: 50px;
+  }
+
+  @media (max-width: 600px){
+    .right-window{
+      background-image:url("../resources/images/image-hero-mobile.png");
+      
+    }
+    .left-window{
+     position:absolute;
+     margin-top: 500px;
+    }
+    .logo-package{
+      bottom: -100px;
+    }
+    .big-title{
+      font-size: 50px;
+    }
+  }
+  

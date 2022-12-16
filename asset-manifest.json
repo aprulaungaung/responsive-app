@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/responsive-app/static/js/main.99ead609.js",
+    "index.html": "/responsive-app/index.html",
+    "main.99ead609.js.map": "/responsive-app/static/js/main.99ead609.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.99ead609.js"
+  ]
+}
